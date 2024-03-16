@@ -1,0 +1,787 @@
+@media (min-width: 1281px) {
+  .projects-item {
+    grid-template-areas:
+      "one one two two three three four four four four four four"
+      "five five five five five five six six six seven seven seven";
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__container {
+    padding-top: 27px;
+    padding-bottom: 26px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 33px;
+  }
+
+  .header__logo {
+    width: 166px;
+    height: 27px;
+    margin-right: 82px;
+  }
+
+  .announcements__card {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-image: url(../images/MasterClass1024.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .past__card:not(.past__card--big)::before {
+    padding-top: calc(186 / 218 * 100%);
+  }
+
+  .past__card--big::before {
+    padding-top: calc(332 / 466 * 100%);
+  }
+
+  .past__title {
+    margin-bottom: 25px;
+  }
+
+  .hero-text {
+    margin-bottom: 8px;
+  }
+
+  .hero-title {
+    font-family: TT Firs Neue;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  .hero-time {
+    font-family: TT Firs Neue;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 23px;
+  }
+
+  .about-text {
+    max-width: 466px;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .input-email {
+    max-width: 342px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-images {
+    margin-bottom: 20px;
+  }
+
+  .container__about {
+    padding-top: 30px;
+    padding-bottom: 82px;
+  }
+
+  .projects-hashtag {
+    top: 7px;
+    right: 7px;
+  }
+
+  .hero-wrap {
+    padding-top: 34px;
+  }
+
+  .contacts-map {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .map-wrap {
+    grid-column: span 5;
+    padding-top: 52%;
+  }
+
+  .map-contacts {
+    padding: 25px 30px 21px 30px;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .map-title {
+    margin-bottom: 2px;
+  }
+
+  .map-tel-wrap {
+    position: relative;
+    left: 7px;
+    top: 5px;
+  }
+
+  .section-map {
+    padding-top: 34px;
+    padding-bottom: 68px;
+  }
+
+  .bth-map {
+    right: 20px;
+    top: 20px;
+  }
+
+  .ymaps {
+    width: 590px;
+    height: 460px;
+  }
+
+  .contacts-form {
+    grid-column: span 3;
+  }
+
+  .projects-text {
+    display: none;
+  }
+
+  .projects-list-big {
+    padding: 30px;
+  }
+
+  .projects-text-one {
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 17px;
+    color: var(--color-darkblack);
+  }
+
+  .projects-test-1 {
+    background-image: url(../images/fujl1024.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .wrapp-map {
+    max-width: 310px;
+  }
+
+  .map-text {
+    display: inline;
+  }
+
+  .footer__logos {
+    width: 166px;
+    height: 27px;
+  }
+
+  .footer__text {
+    margin-left: auto;
+    margin-right: 2px;
+  }
+
+  .container-footer {
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 18px;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+
+  .header__container {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .header__logo {
+    margin-bottom: 27px;
+  }
+
+  .header__navigation {
+    width: calc(100% + 54px);
+    margin-left: -27px;
+    margin-right: -27px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    background-color: #4a4a4a;
+  }
+
+  .header__nav {
+    margin-right: 0;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 72px;
+  }
+
+  .header__bth {
+    top: 26px;
+  }
+
+  .hero-wrap {
+    padding-top: 36px;
+    padding-bottom: 68px;
+  }
+
+  .hero-bth {
+    padding: 16px 23px;
+  }
+
+  .announcements__card {
+    background-image: url(../images/MasterClass768.jpg);
+    background-repeat: no-repeat;
+    padding: 27px 27px 30px 28px;
+  }
+
+  .hero-text {
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    font-family: TT Firs Neue;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    color: var(--color-white);
+  }
+
+  .hero-time {
+    font-family: TT Firs Neue;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    color: var(--color-white);
+    margin-bottom: 21px;
+  }
+
+  .past__title {
+    font-family: TT Firs Neue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104%;
+    margin-bottom: 15px;
+  }
+
+  .past__card:not(.past__card--big)::before {
+    padding-top: calc(133 / 156 * 100%);
+  }
+
+  .past__card--big::before {
+    padding-top: calc(228 / 342 * 100%);
+  }
+
+  .contacts-map {
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 24px;
+  }
+
+  .map-wrap {
+    grid-column: span 6;
+    padding-top: 60%;
+  }
+
+  .contacts-form {
+    grid-column: span 4;
+  }
+
+  .text {
+    margin-bottom: 34px;
+  }
+
+  .about-text {
+    max-width: 342px;
+    height: auto;
+  }
+
+  .container__about {
+    padding-top: 30px;
+    padding-bottom: 62px;
+  }
+
+  .projects-text {
+    display: block;
+  }
+
+  .projects-text-one {
+    display: none;
+  }
+
+  .projects-list-big {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 21px;
+  }
+
+  .projects-text-color {
+    margin-bottom: 48px;
+  }
+
+  .projects-bth {
+    padding: 12px 19px;
+    margin-top: 0;
+  }
+
+  .map-text {
+    display: block;
+  }
+
+  .wrapp-map {
+    max-width: 436px;
+  }
+
+  .map-title {
+    margin-bottom: 5px;
+  }
+
+  .map-tel-wrap {
+    position: relative;
+    left: 7px;
+    top: 5px;
+  }
+
+  .map-tel-wrap {
+    position: relative;
+    left: 0px;
+    top: 5px;
+  }
+
+  .footer__text {
+    display: none;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 1280px) {
+  .projects-item {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      "one one two two three three three three"
+      "four four four four four six six six"
+      "seven seven seven five five five five five";
+  }
+}
+
+@media (max-width: 767px) {
+  .header.open .header__nav {
+    transform: translateX(109.3%);
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 320px;
+    z-index: 10;
+    position: absolute;
+    left: -350px;
+    top: 81px;
+    padding: 14px 21px;
+    background-color: var(--color-darkblack);
+    transition: transform 0.5s;
+  }
+
+  .header__burger-bth {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .header__list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 214px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .header__link-span {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__link {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  .header__logo {
+    width: 112px;
+    height: 18px;
+    margin-right: 0;
+    margin-bottom: 26px;
+  }
+
+  .hero-wrap__container {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .header.open .header__nav {
+    transform: translateX(102.8%);
+  }
+
+  .header__nav {
+    top: 71px;
+  }
+
+  .header-form_show {
+    top: 20px;
+    opacity: 1;
+  }
+
+  .header__form {
+    width: 278px;
+    font-size: 14px;
+  }
+
+  .svg-header {
+    width: 18px;
+    height: 18px;
+  }
+
+  .announcements__card {
+    min-height: 422px;
+  }
+
+  .projects-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "six"
+      "seven"
+      "five";
+  }
+
+  .map-wrap {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-top: 70%;
+    height: 472px;
+  }
+
+  .contacts-form {
+    grid-column: span 6;
+  }
+
+  .icon-header {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header__bth {
+    top: 24px;
+  }
+
+  .header__navigation {
+    width: calc(100% + 42px);
+    margin-left: -21px;
+    margin-right: -21px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    background-color: #4a4a4a;
+  }
+
+  .hero-wrap {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .announcements__card {
+    background-image: url(../images/MasterClass320.jpg);
+    background-repeat: no-repeat;
+    padding: 29px;
+  }
+
+  .hero-hashtag {
+    padding: 4px 7px;
+    top: 6px;
+    right: 5px;
+    font-size: 12px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-title {
+    margin-bottom: 4px;
+  }
+
+  .hero-time {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .hero-bth {
+    padding: 12px 23px;
+    font-size: 14px;
+  }
+
+  .past__title {
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+
+  .about-title {
+    font-size: 18px;
+  }
+
+  .container__about {
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 60px;
+  }
+
+  .about-text {
+    width: 278px;
+    height: auto;
+    margin: 0;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .about-wrap {
+    padding: 0;
+    margin-top: 21px;
+  }
+
+  .about-images {
+    margin-bottom: 23px;
+  }
+
+  .mailing-list-title {
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+
+  .input-email {
+    height: 40px;
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .about-bth {
+    font-size: 14px;
+    padding: 12px 23px;
+  }
+
+  .projects-section {
+    padding-top: 49px;
+    padding-bottom: 17px;
+  }
+
+  .projects-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .projects-hashtag {
+    font-size: 12px;
+    top: 5px;
+    right: 5px;
+    padding: 4px 14px;
+  }
+
+  .projects-test-1 {
+    background-image: url(../images/fujl320.jpg);
+    background-repeat: no-repeat;
+    height: 422px;
+    justify-content: flex-end;
+    padding: 30px;
+  }
+
+  .projects-test-2 {
+    background-image: url(../images/oblivion320.jpg);
+    background-repeat: no-repeat;
+    height: 422px;
+    justify-content: flex-end;
+    padding: 30px;
+  }
+
+  .projects-time-one {
+    color: var(--color-white);
+  }
+
+  .projects-text-color {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .projects-bth {
+    padding: 12px 21px;
+    font-size: 14px;
+  }
+
+  .maps-title-one {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .map-contacts {
+    padding: 26px 20px 14px 19px;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .map-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 22px;
+  }
+
+  .map-text {
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 13px;
+  }
+
+  .icon-tel {
+    width: 20px;
+    height: 20px;
+  }
+
+  .map-tel {
+    font-size: 14px;
+  }
+
+  .maps-title {
+    font-family: TT Firs Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 7px;
+  }
+
+  .maps-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 16px;
+  }
+
+  .contacts-name {
+    font-size: 14px;
+    padding: 12px 23px;
+    height: 40px;
+  }
+
+  .contacts-email {
+    font-size: 14px;
+    padding: 12px 23px;
+    height: 40px;
+  }
+
+  .contacts-textarea {
+    font-size: 14px;
+    padding: 12px 23px;
+    height: 150px;
+  }
+
+  .contacts-bth {
+    font-size: 14px;
+    padding: 15px 22px;
+    height: 40px;
+  }
+
+  .section-map {
+    padding-top: 17px;
+    padding-bottom: 50px;
+  }
+
+  .container-footer {
+    padding-top: 31px;
+    padding-bottom: 0;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  .footer__logo {
+    width: calc(100% + 42px);
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin: 0;
+    background: var(--color-lightblack);
+  }
+
+  .footer__wrap {
+    margin: 0;
+  }
+
+  .footer__texts {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  .footer__logos {
+    width: 112px;
+    height: 18px;
+  }
+
+  .footer__text-one {
+    text-align: center;
+    font-family: TT Firs Neue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer__wrap {
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 820px) {
+  .projects-item {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "one one two two three three"
+      "four four four four four four"
+      "six six six seven seven seven"
+      "five five five five five five";
+  }
+}
